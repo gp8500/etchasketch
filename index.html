@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>ETCH-A-SKETCH</h1>
+        <p><strong>PICK A COLOR:</strong></p>
+        <button class='btn' onclick='reset()' id='resetButton'>RESET</button>
+        <!---<button class='btn' id='small' onclick='makeGrid(10)'>SMALL</button>
+        <button class='btn' id='medium' onclick='makeGrid(20)'>MEDIUM</button>
+        <button class='btn' id='large' onclick='makeGrid(50)'>LARGE</button>-->
+        <button class='btn' id='opacity' onclick='colorChange("shadow")'>SHADOW</button>
+        <button class='btn' id='colorful' onclick='colorChange("colorful")'>COLORFUL</button>
+        <button class='btn' id='black' onclick='colorChange("black")'>BLACK</button>
+        <div id='parent'>
+            <div class='div' id="container"></div>
+        </div>
+        <script src='./app.js'></script>
+    </body>
+</html>
